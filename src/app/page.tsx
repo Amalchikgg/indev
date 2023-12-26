@@ -25,7 +25,7 @@ export default function Home() {
             alt='gradient'
             width={420}
             height={347}
-            className='object2'
+            className='object2 mobile:!w-[300px] mobile:!h-[200px]'
           />
           <div className='flex items-center flex-wrap '>
             <p className='text-white text-[64px] tablet:text-[52px] mobile:text-[30px] font-light leading-[0] tablet:leading-[0.8] mr-1 tablet:mr-4'>

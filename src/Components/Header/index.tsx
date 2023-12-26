@@ -52,7 +52,7 @@ const Header = () => {
         <div className='flex items-center gap-x-20 tablet:gap-x-[33px]'>
           <LinkScroll
             link='startup'
-            className='text-white element mr-10 text-[20px] tablet:hidden font-bold cursor-pointer uppercase'
+            className='text-white element text-[20px] tablet:hidden font-bold cursor-pointer uppercase'
           >
             {t("ourStartup")}
           </LinkScroll>

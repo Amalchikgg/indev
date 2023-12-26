@@ -173,16 +173,10 @@ body {
 .object1,
 .object2 {
   position: absolute;
-  width: 420px;
-  height: 347px;
+  width: 720px;
+  height: 647px;
   -webkit-transform: rotate(135deg);
   z-index: -10;
-  border-radius: 100%;
-  fill: linear-gradient(
-    180deg,
-    rgba(144, 69, 0, 0.5) 0%,
-    rgba(146, 2, 140, 0.5) 100%
-  );
 }
 
 .object1 {
