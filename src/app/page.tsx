@@ -52,7 +52,7 @@ export default function Home() {
             <span className='text-white text-[64px] tablet:text-[52px] mobile:text-[30px] inline font-light leading-[1] relative  tablet:ml-0'>
               {t("itSolutions")}
             </span>
-            <span className='text-white text-[64px] mr-4 mobile:mr-0 tablet:text-[52px] mobile:text-[30px] inline font-light leading-[1] relative'>
+            <span className='text-white text-[64px] mr-4 mobile:mr-1 tablet:text-[52px] mobile:text-[30px] inline font-light leading-[1] relative'>
               {t("buisiness")}{" "}
             </span>{" "}
             <Image

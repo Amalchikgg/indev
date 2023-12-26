@@ -143,30 +143,38 @@ body {
   /* Меню появляется на весь экран */
 }
 
+.conatiners {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .menu.active {
   transform: translateX(0%);
 }
 
 @keyframes animate {
   0% {
-    top: -20%;
-    left: -20%;
+    top: -50%;
+    left: -30%;
   }
   25% {
     top: 0;
     left: 85%;
   }
   50% {
-    top: 85%;
+    top: -55%;
     left: 85%;
   }
   75% {
-    top: 85%;
+    top: 10%;
     left: -10%;
   }
   100% {
-    top: -20%;
-    left: -20%;
+    top: -50%;
+    left: -30%;
   }
 }
 
